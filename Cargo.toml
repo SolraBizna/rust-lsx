@@ -1,0 +1,21 @@
+[package]
+name = "lsx"
+version = "1.1.1"
+authors = ["Solra Bizna <solra@bizna.name>"]
+edition = "2018"
+description = "A pure, safe Rust implementation of the Twofish block cipher and the SHA-256 cryptographic hash function."
+readme = "README.md"
+homepage = "https://github.com/SolraBizna/rust-lsx/"
+repository = "https://github.com/SolraBizna/rust-lsx/"
+license = "Zlib"
+license-file = "LICENSE.md"
+keywords = ["twofish", "sha-256", "cryptography"]
+categories = ["cryptography", "no-std"]
+
+[features]
+default = ["sha256", "twofish"]
+sha256 = []
+twofish = []
+
+[dependencies]
+arrayref = "0.3"
