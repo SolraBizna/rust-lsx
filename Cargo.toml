@@ -8,7 +8,6 @@ readme = "README.md"
 homepage = "https://github.com/SolraBizna/rust-lsx/"
 repository = "https://github.com/SolraBizna/rust-lsx/"
 license = "Zlib"
-license-file = "LICENSE.md"
 keywords = ["twofish", "sha-256", "cryptography"]
 categories = ["cryptography", "no-std"]
 
