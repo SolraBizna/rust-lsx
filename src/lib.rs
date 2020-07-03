@@ -28,13 +28,13 @@
 //! Or, if you want only SHA-256 support:
 //!
 //! ```toml
-//! lsx = {version = "1.1", features = ["sha256"]}
+//! lsx = {version = "1.1", default-features = false, features = ["sha256"]}
 //! ```
 //!
 //! Or only Twofish:
 //!
 //! ```toml
-//! lsx = {version = "1.1", features = ["twofish"]}
+//! lsx = {version = "1.1", default-features = false, features = ["twofish"]}
 //! ```
 //!
 //! See the respective module documentation for further information.
