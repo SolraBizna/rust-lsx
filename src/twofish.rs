@@ -1,7 +1,7 @@
 //! An implementation of the [Twofish][1] block cipher. Only the primitive
 //! operation is supported; you will have to provide the rest (e.g. a
 //! particular CTR or CBC scheme) yourself. Enabled by default, or if you
-//! request the `"sha256"` feature.
+//! request the `"twofish"` feature.
 //!
 //! [1]: https://en.wikipedia.org/wiki/Twofish
 
